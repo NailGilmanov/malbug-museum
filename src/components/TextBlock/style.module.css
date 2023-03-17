@@ -1,0 +1,18 @@
+.wrap {
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.info {
+    font-weight: 500;
+    color: #848383;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}

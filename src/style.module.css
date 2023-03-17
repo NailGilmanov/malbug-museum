@@ -1,0 +1,9 @@
+.wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F2F0F0;
+}
+
+.inner {
+    background-color: white;
+}

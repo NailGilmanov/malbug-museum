@@ -1,7 +1,9 @@
 import React, {useState, useEffect, CSSProperties } from 'react';
-
+import style from './style.module.css';
 import MoonLoader  from "react-spinners/MoonLoader";
 
+import Carousel from './components/Carousel/Carousel'
+import TextBlock from './components/TextBlock/TextBlock'
 
 export const App = () => {
     const [loading, setLoading] = useState(false);
@@ -31,7 +33,20 @@ export const App = () => {
 
                 :
 
-                <h1>Hello World</h1>
+                <div className={style.wrapper}>
+                    <div className={style.inner}>
+                        < Carousel />
+                        <TextBlock 
+                            title='О музее'
+                            info={[
+                                'Школьный краеведческий музей Муниципального бюджетного общеобразовательного учреждения Малобугульминской средней общеобразовательной школы Бугульминского муниципального района Республики Татарстан является одной из форм дополнительного образования, развивающей сотворчество, активность, самодеятельность учащихся в процессе сбора, исследования, обработки, оформления и пропаганды материалов, имеющих воспитательную и познавательную ценность.',
+                                'В состав нашего музея входят 3 зала. Залы были открыты в 2001 году к 100-летию школы'
+                            ]}
+                        />
+                    </div>
+                </div>
+                
+
             }
         </>
     )
