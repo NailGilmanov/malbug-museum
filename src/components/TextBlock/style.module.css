@@ -16,3 +16,12 @@
     font-size: 20px;
     font-family: 'Outfit', sans-serif;
 }
+
+@media (max-width: 600px) { 
+    .wrap {
+        max-width: 1450px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
