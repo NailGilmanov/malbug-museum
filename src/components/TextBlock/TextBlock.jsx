@@ -6,7 +6,7 @@ const TextBlock = (props) => {
         <div className={style.wrap}>
             <h2 className={style.title}>{props.title}</h2><br />
             { props.info.map((item) => {
-                return <p className={style.info}>{item}</p>
+                return <p className={style.info}>&nbsp; &nbsp; &nbsp; &nbsp;{item}</p>
             }) }
         </div>
     );

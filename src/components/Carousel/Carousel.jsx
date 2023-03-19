@@ -48,7 +48,7 @@ const Carousel = () => {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="3000">
-                            <img src="https://sun9-65.userapi.com/impg/vAfMk-CcJ7k04ttjsDf_hvcnPstuvn_usR7jlA/eHWqFBixf1M.jpg?size=626x966&quality=96&sign=6a046abdb06c216ee4264896e4d8ea08&type=album" className="d-block w-100" alt="..."></img>
+                            <img src="https://sun9-8.userapi.com/impg/2fApQ1vPsflOwz8r9ytFI9vQQ37Taiec70g3JA/aQXQ3-VZzUs.jpg?size=695x1080&quality=95&sign=175358fc327214f524b29b9aebdd5f59&type=album" className="d-block w-100" alt="..."></img>
                         </div>
                         <div className="carousel-item" data-bs-interval="3000">
                             <img src="https://sun9-56.userapi.com/impg/64xxTjCJV820wIgmUuhw9Rh_hITpb7E6xtgdeg/08nAXWLB7mM.jpg?size=624x964&quality=96&sign=f4fec51a133eaf1613a229c1b5509c55&type=album" className="d-block w-100" alt="..."></img>
