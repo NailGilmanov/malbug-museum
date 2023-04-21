@@ -1,6 +1,7 @@
 .wrapper {
     padding-left: 100px;
     padding-right: 100px;
+    margin-bottom: 0 !important;
     background-color: #F2F0F0;
 }
 
